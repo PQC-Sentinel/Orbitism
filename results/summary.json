@@ -1,0 +1,55 @@
+{
+  "energy_rel_error_rk4_30s": 6.73439646270424e-08,
+  "energy_rel_error_dop853": 3.3132385723888547e-11,
+  "rk4_observed_order": 4.212,
+  "j2_nodal_regression": [
+    {
+      "orbit": "Sun-synchronous, 800 km, i = 98.6 deg",
+      "theory_deg_per_day": 0.9853,
+      "simulated_deg_per_day": 0.9895,
+      "percent_difference": 0.428
+    },
+    {
+      "orbit": "ISS-like, 420 km, i = 51.6 deg",
+      "theory_deg_per_day": -4.951,
+      "simulated_deg_per_day": -4.9724,
+      "percent_difference": 0.433
+    }
+  ],
+  "hohmann": {
+    "r1_km": 6678.137,
+    "r2_km": 42164.0,
+    "dv1_km_s": 2.4257,
+    "dv2_km_s": 1.4668,
+    "dv_total_km_s": 3.8926,
+    "tof_hours": 5.275,
+    "final_orbit_radius_error_km": 0.0
+  },
+  "cubesat_decay_days_350km": 65.5,
+  "huntsville_passes_24h": [
+    {
+      "rise_utc": "2026-10-23 04:45:45",
+      "set_utc": "2026-10-23 04:50:31",
+      "duration_min": 4.77,
+      "max_elev_deg": 18.2
+    },
+    {
+      "rise_utc": "2026-10-23 06:21:29",
+      "set_utc": "2026-10-23 06:27:44",
+      "duration_min": 6.26,
+      "max_elev_deg": 35.0
+    },
+    {
+      "rise_utc": "2026-10-23 12:52:34",
+      "set_utc": "2026-10-23 12:59:08",
+      "duration_min": 6.57,
+      "max_elev_deg": 53.9
+    },
+    {
+      "rise_utc": "2026-10-23 14:31:01",
+      "set_utc": "2026-10-23 14:33:18",
+      "duration_min": 2.27,
+      "max_elev_deg": 11.4
+    }
+  ]
+}
