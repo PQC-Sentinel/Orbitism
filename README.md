@@ -1,10 +1,10 @@
-# Orbitism: An Earth-Orbit Flight Dynamics Simulator
+# Orbit-Sim: An Earth-Orbit Flight Dynamics Simulator
 
 **Jason Jenkins** · B.S. Physics with Astrophysics, University of Alabama in Huntsville
 
-**[▶ Run the live 3D simulator](https://pqc-sentinel.github.io/Orbitism/web/orbitsim.html)** (no install needed; runs in any browser)
+**[▶ Run the live 3D simulator](https://pqc-sentinel.github.io/Orbit-Sim/web/orbitsim.html)** (no install needed; runs in any browser)
 
-Orbitism is an orbital mechanics simulator I built to model how satellites move around Earth, how they change orbits, and when they can be seen from the ground. It has two parts: a Python engine for analysis and testing, and an interactive 3D simulator that runs in any web browser.
+Orbit-Sim is an orbital mechanics simulator I built to model how satellites move around Earth, how they change orbits, and when they can be seen from the ground. It has two parts: a Python engine for analysis and testing, and an interactive 3D simulator that runs in any web browser.
 
 ![Hohmann transfer from low Earth orbit to geostationary orbit](results/05_hohmann_transfer.png)
 
@@ -26,9 +26,9 @@ Orbitism is an orbital mechanics simulator I built to model how satellites move 
 
 I have been fascinated by space for as long as I can remember: rockets, satellites, astronomy, and the physics that ties them together. That passion is why I went back to school and earned my B.S. in Physics with an Astrophysics focus from the University of Alabama in Huntsville. Along the way I worked on CubeSat hardware with the UAH Space Hardware Club, analyzed International Space Station data in NASA-supported plasma research, and trained in digital engineering at the UTEP Aerospace Center.
 
-I built Orbitism because I wanted to go beyond solving orbital mechanics problems on paper. I wanted a working flight dynamics tool that I could test, trust, and explain. Every number it produces has been checked, because that is how real aerospace engineering works: you prove your model before anyone flies on it. Living near Huntsville, the Rocket City, I also wanted it to answer a local question: when can a satellite overhead actually be seen from here?
+I built Orbit-Sim because I wanted to go beyond solving orbital mechanics problems on paper. I wanted a working flight dynamics tool that I could test, trust, and explain. Every number it produces has been checked, because that is how real aerospace engineering works: you prove your model before anyone flies on it. Living near Huntsville, the Rocket City, I also wanted it to answer a local question: when can a satellite overhead actually be seen from here?
 
-I built Orbitism with the help of an AI coding assistant and verified every model myself against standard references. It reflects how I want to work as an engineer: curious, hands-on, and rigorous about getting the physics right.
+I built Orbit-Sim with the help of an AI coding assistant and verified every model myself against standard references. It reflects how I want to work as an engineer: curious, hands-on, and rigorous about getting the physics right.
 
 **Built with:** Python, NumPy, SciPy, Matplotlib, pytest, JavaScript, three.js
 
@@ -42,7 +42,7 @@ python -m pytest -q          # 11 verification tests
 python run_all.py            # runs every scenario, writes plots + summary.json to results/
 ```
 
-To use the browser version, open the [live simulator](https://pqc-sentinel.github.io/Orbitism/web/orbitsim.html) or open `web/orbitsim.html` locally.
+To use the browser version, open the [live simulator](https://pqc-sentinel.github.io/Orbit-Sim/web/orbitsim.html) or open `web/orbitsim.html` locally.
 
 ## Project structure
 
